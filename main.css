@@ -1,0 +1,27 @@
+.grid__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    height: fit-content;
+    width: fit-content;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* background-color: lightpink; */
+}
+
+.grid__item {
+    height: 3rem;
+    width: 3rem;
+    background-color: red;
+    color: black;
+    font-weight: bold;
+    font-size: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    border-radius: 50%;
+}
+/* CSS transform: scale() or perspective + transform: translate-z() will make the effect cleaner */
